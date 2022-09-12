@@ -1,0 +1,32 @@
+{
+  "name": "ub-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lougles/ub-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lougles/ub-backend/issues"
+  },
+  "homepage": "https://github.com/Lougles/ub-backend#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-fileupload": "^1.4.0",
+    "mongoose": "^6.6.0",
+    "path": "^0.12.7",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
